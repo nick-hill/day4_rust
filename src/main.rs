@@ -1,8 +1,12 @@
 #[macro_use]
 extern crate text_io;
-mod result;
+//mod result;
+// mod largest_number;
+mod generics;
 
 fn main() {
 
-    result :: res();
+    //result :: res();
+    //largest_number :: largest();
+    generics :: generic();
 }
